@@ -106,10 +106,7 @@
                         <p>Cerro Banderita Sur 308<br>
                             Ciudad, Mendoza</p>
                     </div>    
-                    <div class="fiesta_boton">
-                        <a class="btn btn_primario" href="https://goo.gl/maps/sJXQXJ8oxw3DfvNv7" target="_blank">VER MAPA</a>
-                    </div>     
-                </div>
+                 </div>
                 
                <!-- SECCION10 - CONFIRMACION -->
                 <div id="confirmacion" class="swiper-slide dflexcol centrado_x rel" style="width: 462px;">
@@ -117,12 +114,7 @@
                     <div class="confirmacion_imagen"></div>   
                     <div class="confirmacion_texto dflexcol centrado_xy texto_centrado">
                         <h1>¡Te esperamos!</h1>
-                        <p>Por favor, enviá tu mensaje de confirmación de asistencia
-                          hasta el 15 de febrero, haciendo click en el siguiente botón.</p>
-                    </div>   
-                    <div class="confirmacion_boton dflexcol centrado_x">
-                        <a class="btn btn_primario" href="https://wa.me/5492615080835/?text=No%20me%20lo%20pierdo!%20%F0%9F%8E%89" target="_blank">CONFIRMAR ASISTENCIA</a>
-                    </div>
+                    </div>                      
                 </div>
 
                     
@@ -210,50 +202,6 @@
            $('#volver').click(function() {
                mySwiper.slideTo(0, 500,);
            })
-       </script>
-
-        <!-- Addtocalendar -->
-        <script type="text/javascript">(function () {
-            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
-            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
-                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
-                s.src = ('./Invitación Casamiento_files/atc.min.js.descarga');
-                var h = d[g]('body')[0];h.appendChild(s); }})();
-        </script><script type="text/javascript" charset="UTF-8" async="" src="./Invitación Casamiento_files/atc.min.js.descarga"></script>
-
-       <!-- Contador -->
-       <script type="text/javascript">
-           // Set the date we're counting down to
-           var countDownDate = new Date("March 25, 2023 11:00:00").getTime();
-   
-           // Update the count down every 1 second
-           var x = setInterval(function() {
-   
-           // Get today's date and time
-           var now = new Date().getTime();
-   
-           // Find the distance between now and the count down date
-           var distance = countDownDate - now;
-   
-           // Time calculations for days, hours, minutes and seconds
-           var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-           var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-           var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-           var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-   
-           // Display the result in the element with id="demo"
-           document.getElementById("days").innerHTML = days + "<br><span>días</span>";
-           document.getElementById("hours").innerHTML = hours + "<br><span>horas</span>";
-           document.getElementById("min").innerHTML = minutes + "<br><span>minutos</span>";
-           document.getElementById("seg").innerHTML = seconds + "<br><span>segundos</span>";
-   
-           // If the count down is finished, write some text 
-           if (distance < 0) {
-               clearInterval(x);
-               document.getElementById("demo").innerHTML = "Nos Casamos!!!";
-           }
-           }, 1000);
        </script>
 
 
